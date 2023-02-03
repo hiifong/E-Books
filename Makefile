@@ -4,7 +4,7 @@ default: help
 
 .PHONY: update
 update: tree ## 更新
-	@-echo "\033[32m =====> Updating ..."
+	@-echo "\033[32m =====> Tree updating ..."
 	@-git add .
 	@-git commit -m "📝 Update"
 	@-git push -u origin main
