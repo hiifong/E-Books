@@ -7,7 +7,7 @@ update: tree ## 更新
 	@-echo "\033[32m =====> Updating ..."
 	@-git add .
 	@-git commit -m "📝 Update"
-	@-git push -u main
+	@-git push -u origin main
 	@-echo "\033[32m =====> Done ..."
 
 .PHONY: tree
